@@ -7,7 +7,7 @@
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 200px;
+    min-height: 300px;
 }
 
 .footer {
@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-    padding: 50px 15px 50px 15px;
+    padding: 70px 30px 70px 30px;
     margin: 0px auto;
     background: #9575CD;
     color: floralwhite;
