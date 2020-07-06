@@ -7,7 +7,7 @@
     margin: 0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .footer {
@@ -38,14 +38,24 @@ body {
     background-color: #512DA8;
 }
 
-#rButton {
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .tab-content {
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 250px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
 }
