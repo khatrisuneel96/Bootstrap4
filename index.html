@@ -290,10 +290,15 @@
                 </div>
            </div>
            <div class="row justify-content-center">             
-                <div class="col-auto">
+                <div class="col-auto mt-2">
                     <p>© Copyright 2020 Ristorante Con Fusion</p>
                 </div>
-           </div>  
+           </div> 
+           <div class="row justify-content-center">
+            <div class="col-auto">
+                <p>Designed By: <a href="https://www.linkedin.com/in/khatrisuneel96">Suneel Kumar Khatri</a></p>
+            </div>
+           </div> 
         </div>
     </footer>
 
@@ -301,43 +306,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#myCarousel').carousel({interval: 3000});
-            $('#carouselButton').click(function() {
-                if ($('#carouselButton').children('span').hasClass('fa-pause')) {
-                    $('#myCarousel').carousel('pause');
-                    $('#carouselButton').children('span').removeClass('fa-pause')
-                    $('#carouselButton').children('span').addClass('fa-play')
-                }
-
-                else if ($('#carouselButton').children('span').hasClass('fa-play')) {
-                    $('#myCarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play')
-                    $('#carouselButton').children('span').addClass('fa-pause')
-                }
-            });
-            
-            $("#loginButton").click(function(){
-                $("#loginModal").modal('toggle');
-            });
-            
-
-            $("#reserveButton").click(function(){
-                $("#reserveModal").modal('toggle');
-            });
-
-            $("#reserveCancelButton").click(function(){
-                $("#reserveModal").modal('hide');
-            });
-
-            $("#loginCancelButton").click(function(){
-                $("#loginModal").modal('hide');
-            });
-            
-        });
-        
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
