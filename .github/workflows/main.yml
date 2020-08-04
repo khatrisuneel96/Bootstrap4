@@ -28,6 +28,21 @@ jobs:
     - name: Installing Rimraf
       run: npm install rimraf
 
+    - name: Installing ImageMin
+      run: npm install grunt-contrib-imagemin
+
+    - name: Installing Usemin CLI
+      run: npm install usemin-cli
+
+    - name: Installing Grunt usemin
+      run: npm install grunt-usemin
+
+    - name: Installing HTMLmin
+      run: npm install htmlmin
+
+    - name: Installing Grunt html min
+      run: npm install grunt-contrib-htmlmin
+
     - name: Creating build
       run: npm run build 
       
