@@ -28,6 +28,9 @@ jobs:
     - name: Installing Rimraf
       run: npm install rimraf
 
+    - name: Installing GRUNT
+      run: npm install jit-grunt
+
     - name: Installing ImageMin
       run: npm install grunt-contrib-imagemin
 
