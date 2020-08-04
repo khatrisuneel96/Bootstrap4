@@ -28,26 +28,57 @@ jobs:
     - name: Installing Rimraf
       run: npm install rimraf
 
-    - name: Installing GRUNT
+    - name: Installing Grunt CLI
+      run: npm install -g grunt-cli
+
+    - name: Installing Grunt
+      run: npm install grunt
+
+    - name: Installing Grunt SaSS
+      run: npm install grunt-sass
+
+    - name: INstalling Grunt Time
+      run: npm install time-grunt
+
+    - name: Installing GRUNT Jit
       run: npm install jit-grunt
+
+    - name: Installing grunt-contrib-watch
+      run: npm install grunt-contrib-watch
+
+    - name: Installing grunt-browser-sync
+      run: npm install grunt-browser-sync
+
+    - name: Installing grunt-contrib-copy
+      run: npm install grunt-contrib-copy
+
+    - name: Installing grunt-contrib-clean
+      run: npm install grunt-contrib-clean
 
     - name: Installing ImageMin
       run: npm install grunt-contrib-imagemin
 
-    - name: Installing Usemin CLI
-      run: npm install usemin-cli
+    - name: Installing grunt-contrib-concat
+      run: npm install grunt-contrib-concat
 
-    - name: Installing Grunt usemin
-      run: npm install grunt-usemin
-
-    - name: Installing HTMLmin
-      run: npm install htmlmin
+    - name: Installing grunt-contrib-cssmin
+      run: npm install grunt-contrib-cssmin
 
     - name: Installing Grunt html min
       run: npm install grunt-contrib-htmlmin
 
+    - name: Installing grunt-contrib-uglify
+      run: npm install grunt-contrib-uglify
+
+    - name: Installing grunt-filerev
+      run: npm install grunt-filerev
+
+    - name: Installing Grunt usemin
+      run: npm install grunt-usemin
+    
+
     - name: Creating build
-      run: npm run build 
+      run: grunt build 
       
     - name: installing surge
       run: npm install -g surge
